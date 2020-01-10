@@ -1,4 +1,4 @@
-package main.java.leetcode23;
+package main.java.linklist.leetcode23;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
