@@ -25,6 +25,19 @@ ListNode* mergeKLists(vector<ListNode*>& lists) {
 }
 
 
-int main(int argc, const char * argv[]){
 
+class Player{
+public:
+    const int* rule;
+    Player(const int* s){
+        rule = s;
+    }
+};
+
+int main(){
+    int* s;
+    *s = 5;
+    Player players = new Player[5](s);
+    
+    return 0;
 }
